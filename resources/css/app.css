@@ -1,3 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Patua+One&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+/* Estilo global */
+
+html, body{
+    @apply bg-ipmr-light;
+}
+
+body{
+    padding-top: 170px;
+}
+
+.container{
+    @apply mx-auto relative z-10;
+    max-width: 1100px;
+}
+
+/* Estilo del header principal */
+.headerMaster{
+    @apply py-16 z-50 fixed top-0 left-0 w-full;
+    transition: all 0.25s ease-in-out;
+}
+
+.headerMaster.onScroll{
+    @apply bg-ipmr-light py-6 shadow;
+}
+
+.headerSocialLinks{
+    @apply flex justify-end space-x-6;
+}
+
+.headerSocialLinks a{
+    @apply text-ipmr-red;
+    font-size: 1.3rem;
+}
+
+/* Estilo del footer principal */
+.footerMaster{
+    @apply py-16;
+}
+.footerMenu{
+    @apply flex space-x-7 items-center justify-center;
+}
+
+.footerMenu a{
+    @apply text-ipmr-red tracking-widest font-bold;
+}
+
+.footerMenu a:hover{
+    @apply underline;
+}
+
+/* Menu de navegacion */
+.navMenu{
+    @apply h-screen fixed top-0 left-0 bg-ipmr-red;
+    z-index: 1000;
+    width: 60vw;
+    padding: 7rem;
+    transition: transform 0.25s ease-in-out;
+    transform: translateX(-100%);
+}
+
+.navMenu.active{
+    transform: translateX(0);
+}
+
+.navMenu nav{
+    @apply flex flex-col justify-center space-y-8;
+}
+
+.navMenu nav a{
+    @apply text-white text-3xl font-bold tracking-widest;
+}
+
+.navMenu nav a:hover{
+    @apply text-ipmr-light underline;
+}
+
+.navMenu .navMenuCopy{
+    @apply text-white text-sm font-bold mt-10;
+}
+
+.navMenuCloseBtn{
+    @apply absolute top-0 right-0 mt-8 mr-8 text-ipmr-light;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+/* Titulos y parrafos */
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Patua One', cursive;
+}
+
+h1{
+    @apply text-4xl font-bold;
+}
+
+h2{
+    @apply text-3xl font-bold;
+}
+
+h3{
+    @apply text-2xl font-bold;
+}
+
+h4{
+    @apply text-xl font-bold;
+}
+
+h5{
+    @apply text-lg font-bold;
+}
+
+h6{
+    @apply text-base font-bold;
+}
+
+h1.title{
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.borderBottom{
+    @apply relative;
+
+}
+.borderBottom:after{
+    @apply block w-20 h-1 bg-ipmr-red mt-4;
+    content: '';
+}
+
+.accent{
+    @apply text-ipmr-red underline;
+}
+
+/* Covers o portadas */
+.homeCover{
+    @apply py-16;
+}
+
+/* Botones y links y forms */
+.btn{
+    @apply px-8 py-4 font-bold inline-block rounded-sm;
+}
+
+.btn-primary{
+    @apply bg-ipmr-red text-white;
+}
+
+.btn-primary-outline{
+    @apply border-2 border-ipmr-red text-ipmr-red;
+}
+
+.form-control{
+    @apply block w-full border-2 border-ipmr-red rounded-sm px-4 py-4 outline-none focus:border-ipmr-red transition-all duration-200 ring-0 focus:ring-0;
+}
+
+/* Fondo diagonal degradado */
+.bgDiagonal{
+    @apply w-screen h-auto absolute left-0 right-0;
+    top: -600px;
+    z-index: 1;
+}
+
+/* Cuadros de servicios */
+.serviceSquare{
+    @apply w-full bg-white p-8 bg-cover bg-center bg-no-repeat relative;
+    height: 500px;
+}
+
+.serviceSquare h3{
+    @apply bg-ipmr-light py-4 px-8 absolute bottom-0 text-lg;
+}
+
+.serviceBox{
+    @apply w-full bg-white p-7 bg-white relative flex flex-col items-start justify-between;
+    height: 250px;
+}
+
+.serviceBox:hover{
+    @apply shadow-lg bg-ipmr-red text-white;
+}

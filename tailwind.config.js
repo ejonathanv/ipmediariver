@@ -14,6 +14,10 @@ export default {
             fontFamily: {
                 sans: ['Figtree', ...defaultTheme.fontFamily.sans],
             },
+            colors: {
+                'ipmr-light': '#F2FAFF',
+                'ipmr-red': '#E75F62',
+            },
         },
     },
 
