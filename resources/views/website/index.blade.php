@@ -1,0 +1,3 @@
+<x-guest-layout>
+    Testing...
+</x-guest-layout>
