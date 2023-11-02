@@ -20,7 +20,7 @@
                 Páginas Web para Emprendedores
             </a>
             <a href="#">
-                Desarrollo para Empresas
+                Desarrollo Web para Empresas
             </a>
             <a href="#">
                 Blog y Recursos

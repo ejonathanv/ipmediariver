@@ -25,6 +25,10 @@
         <!-- Header principal -->
         <x-header-master></x-header-master>
 
+        <!-- Enlaces de contacto laterales -->
+        <x-contact-links></x-contact-links>
+
+        <!-- Contenido principal -->
         {{ $slot }}
 
         <!-- Footer principal -->
