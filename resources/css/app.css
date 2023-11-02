@@ -200,3 +200,27 @@ h1.title{
 .serviceBox:hover{
     @apply shadow-lg bg-ipmr-red text-white;
 }
+
+/* Seccion acerca de nosotros */
+.aboutLaptop{
+    @apply w-60 absolute top-0 right-0 h-auto;
+}
+
+.aboutVideoContainer{
+    @apply relative bg-gray-900;
+    min-height: 500px;
+    overflow: hidden
+}
+
+.aboutVideoBg{
+    @apply absolute top-0 left-0 w-full opacity-50;
+}
+
+.sectionHalfImg{
+    width: 50vw;
+    height: 100%;
+    @apply bg-cover bg-center bg-no-repeat;
+    position: absolute;
+    right: 0;
+    top: 0;
+}

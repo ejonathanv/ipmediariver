@@ -9,7 +9,7 @@
         <meta name="keywords" content="Páginas Web, Páginas Web en Tijuana, Diseño Web en Tijuana, Agencia de Marketing Digital en Tijuana, Agencia de Marketing Digital, Agencia de Marketing Digital en Baja California, Aplicaciones Web a la medidad, Desarrollo de Software, Páginas Web Profesionales, Marketing Medico Tijuana, Aplicaciones Móviles, Apps en Tijuana, Páginas Web en México, Paginas Web Profesionales, Agencia Marketing Mexicana">
         <meta name="author" content="IP Media River">
 
-        <title>{{ config('app.name', 'IP Media River') }}</title>
+        <title>{{ config('app.name', 'IP Media River') }} - {{ $title }}</title>
 
         <!-- Fonts -->
         <link rel="preconnect" href="https://fonts.bunny.net">

@@ -10,10 +10,10 @@
         </a>
 
         <nav>
-            <a href="#">
+            <a href="{{ route('website.index') }}">
                 Inicio
             </a>
-            <a href="#">
+            <a href="{{ route('website.about') }}">
                 Nosotros
             </a>
             <a href="#">
