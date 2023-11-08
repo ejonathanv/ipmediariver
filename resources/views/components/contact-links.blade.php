@@ -1,4 +1,4 @@
 <div class="contactLinks">
-    <a href="#">Nosotros</a>
-    <a href="#">Contactanos</a> 
+    <a href="{{ route('website.about') }}">Nosotros</a>
+    <a href="{{ route('website.contact') }}">Contactanos</a> 
 </div>

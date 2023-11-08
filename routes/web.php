@@ -12,11 +12,23 @@ use App\Http\Controllers\WebsiteController;
     // Nosotros
     Route::get('/nosotros', [WebsiteController::class, 'about'])->name('website.about');
     // Emprendedores
-    Route::get('/emprendedores', [WebsiteController::class, 'entrepreneurs'])->name('website.entrepreneurs');
+    Route::get('/paginas-web-para-emprendedores', [WebsiteController::class, 'entrepreneurs'])->name('website.entrepreneurs');
     // Empresas
-    Route::get('/empresas', [WebsiteController::class, 'companies'])->name('website.companies');
-    // Blog y recursos
+    Route::get('/software-para-empresas', [WebsiteController::class, 'companies'])->name('website.companies');
+    // Aplicaciones Web Personalizadas
+    Route::get('/aplicaciones-web-personalizadas', [WebsiteController::class, 'customApps'])->name('website.customApps');
+    // Desarrollo de software
+    Route::get('/desarrollo-de-software', [WebsiteController::class, 'software'])->name('website.software');
+    // Paginas web
+    Route::get('/paginas-web', [WebsiteController::class, 'webPages'])->name('website.webPages');
+    // Servicios de consultoria
+    Route::get('/servicios-de-consultoria', [WebsiteController::class, 'consultingServices'])->name('website.consultingServices');
+    // Mantenimiento y soporte
+    Route::get('/mantenimiento-y-soporte', [WebsiteController::class, 'maintenanceAndSupport'])->name('website.maintenanceAndSupport');
+    // Blog
     Route::get('/blog', [WebsiteController::class, 'blog'])->name('website.blog');
+    // Artículo
+    Route::get('/blog/{post:slug}', [WebsiteController::class, 'article'])->name('website.article');
     // Contacto
     Route::get('/contacto', [WebsiteController::class, 'contact'])->name('website.contact');
     // Política de privacidad

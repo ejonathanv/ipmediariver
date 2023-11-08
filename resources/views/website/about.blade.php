@@ -34,7 +34,7 @@
         </div>
     </section>
 
-    <section class="py-16">
+    <section class="py-24">
         <div class="container">
             <div class="flex items-start justify-between">
                 <div class="w-5/12">

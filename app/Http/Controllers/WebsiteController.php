@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Models\Post;
 use Illuminate\Http\Request;
 
 class WebsiteController extends Controller
@@ -24,7 +25,12 @@ class WebsiteController extends Controller
     }
 
     public function blog(){
-        return view('website.blog');
+        $posts = Post::latest()->paginate(9);
+        return view('website.blog', compact('posts'));
+    }
+
+    public function article(Post $post){
+        return view('website.article', compact('post'));
     }
 
     public function contact(){
@@ -35,5 +41,23 @@ class WebsiteController extends Controller
         return view('website.privacy');
     }
 
+    public function customApps(){
+        return view('website.customApps');
+    }
 
+    public function software(){
+        return view('website.software');
+    }
+
+    public function webPages(){
+        return view('website.webPages');
+    }
+
+    public function consultingServices(){
+        return view('website.consultingServices');
+    }
+
+    public function maintenanceAndSupport(){
+        return view('website.maintenanceAndSupport');
+    }
 }

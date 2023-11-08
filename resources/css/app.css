@@ -171,6 +171,10 @@ h1.title{
     @apply border-2 border-ipmr-red text-ipmr-red;
 }
 
+.btn.block{
+    @apply w-full text-center;
+}
+
 .form-control{
     @apply block w-full border-2 border-ipmr-red rounded-sm px-4 py-4 outline-none focus:border-ipmr-red transition-all duration-200 ring-0 focus:ring-0;
 }
@@ -223,4 +227,13 @@ h1.title{
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.drift-conductor-item iframe{
+    @apply border-0 outline-none ring-0 focus:ring-0;
+}
+
+/* Blog y recursos */
+.blogCard{
+    @apply bg-white shadow rounded-sm overflow-hidden h-full flex flex-col;
 }
