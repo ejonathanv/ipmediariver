@@ -1,4 +1,4 @@
-<x-guest-layout>
+<x-guest-layout title="Páginas Web y Aplicaciones Web en Tijuana">
     <!-- Home Cover -->
     <x-home-cover/>
     <!-- Image Cover -->

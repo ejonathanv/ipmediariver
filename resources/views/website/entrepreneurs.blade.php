@@ -10,7 +10,8 @@
                     En IP Media River, comprendemos que como emprendedor, tu tiempo es valioso y tu presencia en línea es esencial. Es por eso que hemos creado un plan especial de 'Páginas Web para Emprendedores', diseñado para ofrecerte una presencia en línea efectiva en tan solo 10 días.
                 </p>
 
-                <a href="#" class="btn btn-primary">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary">
                     ¡Contáctanos para comenzar!
                 </a>
             </div>
@@ -33,12 +34,12 @@
                     </h3>
                 </div>
                 <div class="w-8/12">
-                    <p class="leading-relaxed">
+                    <p class="leading-relaxed mb-4">
                         Con nuestro plan de 'Páginas Web para Emprendedores', obtendrás un sitio web profesional y personalizado en solo 10 días. Hemos simplificado el proceso para que puedas centrarte en hacer crecer tu negocio. Te brindamos un diseño atractivo, SEO básico y capacitación para mantener tu sitio. Tu éxito como emprendedor comienza aquí.
                     </p>
-                    <p class="accent mt-5">
+                    <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios" class="accent mt-5">
                         ¡Descubre cómo juntos podemos hacer realidad tus sueños digitales!
-                    </p>
+                    </a>
                 </div>
             </div>
         </div>
@@ -87,7 +88,8 @@
                     Para más información sobre nuestro plan de Páginas Web para Emprendedores, contáctanos hoy mismo.
                 </h3>
 
-                <a href="#" class="btn btn-primary">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary">
                     ¡Contáctanos para comenzar!
                 </a>
             </div>

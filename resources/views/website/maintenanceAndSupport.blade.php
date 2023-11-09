@@ -14,7 +14,8 @@
                     Desde actualizaciones y correcciones técnicas hasta respuestas rápidas a posibles problemas, nuestro equipo de expertos está dedicado a mantener tu plataforma digital en su mejor forma.
                 </p>
 
-                <a href="#" class="btn btn-primary">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary">
                     ¡Contáctanos para comenzar!
                 </a>
             </div>
@@ -76,7 +77,8 @@
                     Para más información sobre Consultoría, contáctanos hoy mismo.
                 </h3>
 
-                <a href="#" class="btn btn-primary">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary">
                     ¡Contáctanos para comenzar!
                 </a>
             </div>

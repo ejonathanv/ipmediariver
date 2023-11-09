@@ -67,7 +67,8 @@
                     9. Preguntas y Contacto:
                 </h3>
                 <p class="mb-7">
-                    Para cualquier pregunta relacionada con nuestra política de privacidad, los usuarios pueden ponerse en contacto con nosotros a través de un <a href="mailto:info@ipmediariver.com" class="text-ipmr-red underline font-bold">Email</a>.
+                    Para cualquier pregunta relacionada con nuestra política de privacidad, los usuarios pueden ponerse en contacto con nosotros a través de un <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Tengo%20una%20pregunta%20sobre%20la%20Política%20de%20Privacidad%20de%20su%20sitio%20web"
+                        class="text-ipmr-red underline font-bold">Email</a>.
                 </p>
                 <h2 class="text-center mt-16">
                     Gracias por utilizar el sitio web de IP Media River.

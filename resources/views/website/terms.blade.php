@@ -75,7 +75,8 @@
                 </h3>
 
                 <p class="mb-7">
-                    Si tiene alguna pregunta o inquietud sobre estos términos y condiciones, por favor contáctenos a través de un <a href="mailto:info@ipmediariver.com" class="text-ipmr-red underline font-bold">Email</a>.
+                    Si tiene alguna pregunta o inquietud sobre estos términos y condiciones, por favor contáctenos a través de un <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Tengo%20una%20pregunta%20sobre%20los%20Términos%20y%20Condiciones%20de%20su%20sitio%20web"
+                    class="text-ipmr-red underline font-bold">Email</a>.
                 </p>
                 <h2 class="text-center mt-16">
                     Gracias por utilizar el sitio web de IP Media River.

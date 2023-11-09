@@ -10,8 +10,8 @@
             </div>
 
             <div class="w-1/2">
-                <a href="{{ route('website.companies')}}">
-                    <div class="serviceSquare top-48" style="background-image: url('{{ asset('img/ip-media-river-software-empresarial-a-la-medida.jpg') }}')">
+                <a href="{{ route('website.companies')}}" class="relative top-48">
+                    <div class="serviceSquare" style="background-image: url('{{ asset('img/ip-media-river-software-empresarial-a-la-medida.jpg') }}')">
                         <h3 class="left-0">Software Empresarial a la Medida</h3>
                     </div>
                 </a>

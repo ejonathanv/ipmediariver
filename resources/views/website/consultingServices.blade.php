@@ -10,7 +10,8 @@
                     En IP Media River, entendemos que la toma de decisiones estratégicas en el entorno digital es crucial para el éxito de tu empresa. Nuestro servicio de 'Consultoría' está diseñado para brindarte orientación experta en cada paso del camino. Ya sea que estés buscando optimizar tu presencia en línea, mejorar la eficiencia operativa o implementar soluciones tecnológicas avanzadas, nuestro equipo de consultores está listo para ofrecer insights especializados.
                 </p>
 
-                <a href="#" class="btn btn-primary">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary">
                     ¡Contáctanos para comenzar!
                 </a>
             </div>
@@ -72,7 +73,8 @@
                     Para más información sobre Consultoría, contáctanos hoy mismo.
                 </h3>
 
-                <a href="#" class="btn btn-primary">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary">
                     ¡Contáctanos para comenzar!
                 </a>
             </div>

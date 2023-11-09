@@ -69,7 +69,8 @@
                     Estamos aquí para ayudarte. Contáctanos para discutir tus necesidades de desarrollo web y software y descubre cómo podemos impulsar tu éxito.
                 </p>
 
-                <a href="#" class="btn btn-primary mt-10">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary mt-10">
                     ¡Contáctanos hoy mismo!
                 </a>
             </div>

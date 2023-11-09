@@ -10,7 +10,8 @@
                     En IP Media River, entendemos que el mundo empresarial está en constante evolución, y las empresas necesitan soluciones tecnológicas flexibles y personalizadas para destacar en el mercado actual. Nuestra suite de servicios de 'Desarrollo Web y Aplicaciones Empresariales' está diseñada para ofrecer a tu empresa las herramientas que necesita para triunfar en el mundo digital.
                 </p>
 
-                <a href="#" class="btn btn-primary">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary">
                     ¡Contáctanos para comenzar!
                 </a>
             </div>
@@ -86,9 +87,6 @@
                 <p class="text-white">
                     En IP Media River, te ofrecemos soluciones de comercio en línea a medida, diseñadas para satisfacer tus necesidades específicas y brindarte una ventaja competitiva. Descubre cómo podemos ayudarte a llevar tu negocio al siguiente nivel.
                 </p>
-                <a href="#" class="btn btn-primary mt-10">
-                    ¡Contáctanos para comenzar!
-                </a>
             </div>
             <div class="w-1/2">
                 <img src="{{ asset('img/ip-media-river-ecommerce.jpg') }}" alt="IP Media River - Comercio en Línea" class="w-full h-auto">
@@ -119,7 +117,8 @@
                     Para más información sobre aplicaciones empresariales a la medida, contáctanos hoy mismo.
                 </h3>
 
-                <a href="#" class="btn btn-primary">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary">
                     ¡Contáctanos para comenzar!
                 </a>
             </div>

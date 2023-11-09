@@ -10,7 +10,8 @@
                     En IP Media River, estamos comprometidos en ofrecer soluciones tecnológicas a la medida que impulsan la eficiencia y la productividad de tu empresa. Nuestras aplicaciones web personalizadas se adaptan a tus necesidades específicas, automatizan procesos clave y proporcionan una ventaja competitiva. Descubre cómo nuestra experiencia en desarrollo de aplicaciones puede llevar tu negocio al siguiente nivel.
                 </p>
 
-                <a href="#" class="btn btn-primary">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary">
                     ¡Contáctanos para comenzar!
                 </a>
             </div>
@@ -80,7 +81,8 @@
                     Para más información sobre Aplicaciones Web, contáctanos hoy mismo.
                 </h3>
 
-                <a href="#" class="btn btn-primary">
+                <a href="mailto:info@ipmediariver.com?subject=Contacto%20desde%20la%20página%20web&body=Hola%20IP%20Media%20River,%20me%20gustaría%20saber%20más%20sobre%20sus%20servicios"
+                    class="btn btn-primary">
                     ¡Contáctanos para comenzar!
                 </a>
             </div>
