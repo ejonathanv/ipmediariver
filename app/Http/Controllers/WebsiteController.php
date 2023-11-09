@@ -37,6 +37,10 @@ class WebsiteController extends Controller
         return view('website.contact');
     }
 
+    public function terms(){
+        return view('website.terms');
+    }
+
     public function privacy(){
         return view('website.privacy');
     }

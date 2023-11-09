@@ -1,9 +1,9 @@
-<x-guest-layout title="Desarrollo Web Empresarial">
+<x-guest-layout title="Páginas y Aplicaciones Web Empresariales">
     <section class="homeCover">
         <div class="container">
             <div class="w-7/12 mx-auto text-center">
                 <h1 class="title mb-10">
-                    Desarrollo y Páginas Web <span class="accent">Empresariales</span>
+                    Aplicaciones y Páginas Web <span class="accent">Empresariales</span>
                 </h1>
 
                 <p class="mb-10">

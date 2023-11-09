@@ -31,6 +31,8 @@ use App\Http\Controllers\WebsiteController;
     Route::get('/blog/{post:slug}', [WebsiteController::class, 'article'])->name('website.article');
     // Contacto
     Route::get('/contacto', [WebsiteController::class, 'contact'])->name('website.contact');
+    // Términos y condiciones
+    Route::get('/terminos-y-condiciones', [WebsiteController::class, 'terms'])->name('website.terms');
     // Política de privacidad
     Route::get('/politica-de-privacidad', [WebsiteController::class, 'privacy'])->name('website.privacy');
 

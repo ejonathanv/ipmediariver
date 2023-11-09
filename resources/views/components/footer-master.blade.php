@@ -1,11 +1,11 @@
 <footer class="footerMaster">
     <div class="container">
         <nav class="footerMenu">
-            <a href="#">
+            <a href="{{ route('website.terms') }}">
                 Términos y condiciones
             </a>
 
-            <a href="#">
+            <a href="{{ route('website.privacy') }}">
                 Política de privacidad
             </a>
         </nav>
