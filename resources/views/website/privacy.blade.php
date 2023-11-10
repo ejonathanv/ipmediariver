@@ -9,7 +9,6 @@
                 <h3 class="mb-4">
                     1. Información Recopilada:
                 </h3>
-
                 <p class="mb-7">
                     En IP Media River, recopilamos información que nos ayuda a brindar y mejorar nuestros servicios. Esto puede incluir datos personales, como nombre, dirección de correo electrónico y detalles de contacto, así como información de pago para transacciones relacionadas con nuestros servicios.
                 </p>
