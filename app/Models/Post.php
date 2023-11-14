@@ -16,4 +16,10 @@ class Post extends Model
     protected $casts = [
         'published_at' => 'datetime',
     ];
+
+    public function getCoverAttribute(){
+        $cover = $this->cover_image ? asset('images/posts/' . $this->cover_image) : 'https://placehold.co/600x400';
+        
+        return $cover;
+    }
 }

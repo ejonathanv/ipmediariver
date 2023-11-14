@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProfileController;
 use App\Http\Controllers\WebsiteController;
-
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\PostController;
 
 // Rutas para sitio web
 
@@ -39,9 +40,16 @@ use App\Http\Controllers\WebsiteController;
 // Terminan rutas para sitio web
 
 
-Route::get('/dashboard', function () {
-    return view('dashboard');
-})->middleware(['auth', 'verified'])->name('dashboard');
+// Rutas para administracion
+
+Route::group(['prefix' => 'dashboard', 'middleware' => ['auth', 'verified']], function(){
+    Route::get('/', [DashboardController::class, 'index'])->name('dashboard');
+    Route::resource('posts', PostController::class);
+});
+
+// Terminan rutas para administracion
+
+
 
 Route::middleware('auth')->group(function () {
     Route::get('/profile', [ProfileController::class, 'edit'])->name('profile.edit');

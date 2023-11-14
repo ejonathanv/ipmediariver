@@ -1,5 +1,5 @@
 <footer class="footerMaster">
-    <div class="container">
+    <div class="container hidden md:block">
         <nav class="footerMenu">
             <a href="{{ route('website.terms') }}">
                 Términos y condiciones
@@ -11,8 +11,8 @@
         </nav>
     </div>
 
-    <div class="container flex items-start mt-16">
-        <div class="w-4/12 text-center">
+    <div class="container flex flex-col md:flex-row items-start md:mt-16 space-y-7 md:space-y-0">
+        <div class="w-full md:w-4/12 md:text-center">
             <p class="mb-3 font-bold">Horario</p>
             <p class="text-sm">
                 Lunes a Viernes de 9am a 5pm
@@ -21,7 +21,7 @@
                 Sabado y Domingo - Cerrado
             </p>
         </div>
-        <div class="w-4/12 text-center">
+        <div class="w-full md:w-4/12 md:text-center">
             <p class="mb-3 font-bold">Ubicación</p>
             <p class="text-sm">
                 Aviación 4558 Blvd. Agua Caliente
@@ -30,7 +30,7 @@
                 Tijuana Baja California, México
             </p>
         </div>
-        <div class="w-4/12 text-center">
+        <div class="w-full md:w-4/12 md:text-center">
             <p class="mb-3 font-bold">Contacto</p>
             <p>
                 <a class="text-sm" href="https://wa.me/526643864368" target="_blank">

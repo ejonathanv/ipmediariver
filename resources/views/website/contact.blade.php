@@ -1,7 +1,7 @@
 <x-guest-layout title="Contáctanos">
 <section class="homeCover">
-        <div class="container flex items-center space-x-16">
-            <div class="w-6/12">
+        <div class="container flex flex-col md:flex-row space-y-7 md:space-y-0 items-center md:space-x-16">
+            <div class="w-full md:w-6/12">
                 <h1 class="title mb-10">
                     ¡Contáctanos!
                 </h1>
@@ -36,7 +36,7 @@
                     </a>
                 </p>
             </div>
-            <div class="w-6/12">
+            <div class="w-full md:w-6/12">
                 <img src="{{ asset('img/ip-media-river-contacto.jpg') }}" alt="Contacto IP Media River" class="w-full">
             </div>
         </div>

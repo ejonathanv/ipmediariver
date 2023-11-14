@@ -1,4 +1,4 @@
-<div class="headerSocialLinks flex-1">
+<div class="headerSocialLinks hidden md:flex-1  md:flex">
     <a href="#">
         <i class="fab fa-facebook-f"></i>
     </a>

@@ -2,13 +2,13 @@
     <div class="container">
         <div class="flex items-center justify-between mb-7">
             <h2 class="text-white">Publicaciones recientes</h2>
-            <a href="{{ route('website.blog') }}" class="text-white text-sm font-bold underline">
+            <a href="{{ route('website.blog') }}" class="text-white text-sm font-bold underline text-right md:text-left">
                 Ver todas las publicaciones
             </a>
         </div>
-        <div class="flex items-stretch flex-wrap -mx-4">
+        <div class="flex flex-col md:flex-row items-stretch md:flex-wrap md:-mx-4 space-y-7 md:space-y-0">
             @foreach($posts as $post)
-            <div class="w-4/12 p-4">
+            <div class="w-full md:w-4/12 md:p-4">
                 <x-post-card :post="$post" />
             </div>
             @endforeach

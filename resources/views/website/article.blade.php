@@ -1,8 +1,8 @@
 <x-guest-layout title="{{ $post->title }}">
-    <section class="pb-24">
+    <section class="pb-10 md:pb-24">
         <div class="container">
-            <div class="w-9/12 mx-auto">
-                <img src="{{ $post->cover_image }}" alt="IP Media River - Nosotros" class="w-full h-auto mb-10">
+            <div class="w-full md:w-9/12 mx-auto">
+                <img src="{{ $post->cover }}" alt="IP Media River - Nosotros" class="w-full h-auto mb-10">
                 <h1 class="mb-4">
                     {{ $post->title }}
                 </h1>
@@ -15,7 +15,7 @@
                     {{ $post->resume }}
                 </p>
 
-                {{ $post->body }}
+                {!! $post->body !!}
             </div>
         </div>
     </section>

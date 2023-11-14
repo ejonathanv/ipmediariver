@@ -6,6 +6,35 @@ window.Alpine = Alpine;
 
 Alpine.start();
 
+let editorBox = document.querySelector("#editor");
+
+if (editorBox) {
+    ClassicEditor.create(editorBox, {
+        toolbar: [
+            "heading",
+            "|",
+            "bold",
+            "italic",
+            "link",
+            "bulletedList",
+            "numberedList",
+            "blockQuote",
+            "|",
+            "undo",
+            "redo",
+        ],
+    })
+        .then((editor) => {
+            editor.model.document.on("change:data", () => {
+                let input = document.querySelector("#postBody");
+                input.value = editor.getData();
+            });
+        })
+        .catch((error) => {
+            console.error(error);
+        });
+}
+
 const { createApp } = Vue;
 
 createApp({

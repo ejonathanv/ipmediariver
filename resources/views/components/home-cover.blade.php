@@ -1,7 +1,7 @@
 <section class="homeCover">
     <div class="container">
-        <div class="w-7/12 mx-auto text-center">
-            <h1 class="title mb-16">
+        <div class="w-full md:w-7/12 mx-auto text-left md:text-center">
+            <h1 class="title mb-10 md:mb-16">
                 <span class="accent">Aplicaciones Web</span> y <span class="accent">Páginas Web</span> que Reflejan tu Esencia, con Calidad Inigualable y un Toque Exclusivo.
             </h1>
 

@@ -1,6 +1,6 @@
 <x-guest-layout>
     <div class="container">
-        <div class="w-4/12 mx-auto">
+        <div class="w-full md:w-4/12 mx-auto">
             <!-- Session Status -->
             <x-auth-session-status class="mb-4" :status="session('status')" />
 

@@ -17,7 +17,7 @@ class PostFactory extends Factory
     public function definition(): array
     {
 
-        $statuses = ['draft', 'published', 'archived'];
+        $statuses = ['draft', 'published'];
         $status = $statuses[array_rand($statuses)];
 
         $title = $this->faker->sentence;
@@ -27,7 +27,6 @@ class PostFactory extends Factory
             'title' => $title,
             'resume' => $this->faker->paragraph,
             'body' => $this->faker->paragraph,
-            'cover_image' => $coverImage,
             'category' => $this->faker->word,
             'author' => $this->faker->name,
             'published_at' => $this->faker->dateTime,

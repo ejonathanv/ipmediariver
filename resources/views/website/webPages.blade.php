@@ -1,7 +1,7 @@
 <x-guest-layout title="Páginas Web Profesionales">
     <section class="homeCover">
-        <div class="container flex items-center space-x-16">
-            <div class="w-7/12">
+        <div class="container flex flex-col md:flex-row space-y-7 md:space-y-0 items-center md:space-x-16">
+            <div class="w-full md:w-7/12">
                 <h1 class="title mb-7">
                     Páginas Web Profesionales
                 </h1>
@@ -15,30 +15,30 @@
                     ¡Contáctanos para comenzar!
                 </a>
             </div>
-            <div>
+            <div class="w-full md:w-5/12">
                 <img src="{{ asset('img/ip-media-river-paginas-web.svg') }}" alt="Páginas Web Profesionales" class="w-full">
             </div>
         </div>
     </section>
 
-    <section class="bg-white py-16">
+    <section class="bg-white py-10 md:py-16">
         <div class="container">
-            <h2 class="text-center mb-10">Beneficios</h2>
-            <div class="flex items-stretch space-x-7">
-                <div class="w-4/12 text/center p-8 bg-ipmr-light">
+            <h2 class="text-left md:text-center mb-10">Beneficios</h2>
+            <div class="flex flex-col md:flex-row space-y-7 md:space-y-0 items-stretch md:space-x-7">
+                <div class="w-full md:w-4/12 text/center p-8 bg-ipmr-light">
                     <h4 class="mb-7">Diseño Profesional y Atractivo</h4>
 
                     <p class="text-sm">
                         Ofrecemos diseño web de alta calidad que no solo es visualmente atractivo, sino que también se adapta a la identidad de tu empresa. Nuestro enfoque en el diseño profesional garantiza una presencia en línea que destaca entre la competencia.
                     </p>
                 </div>
-                <div class="w-4/12 text/center p-8 bg-ipmr-light">
+                <div class="w-full md:w-4/12 text/center p-8 bg-ipmr-light">
                     <h4 class="mb-7">Personalización a Medida</h4>
                     <p class="text-sm">
                         En IP Media River, creemos en la importancia de la personalización. Diseñamos cada página web de acuerdo con las necesidades y objetivos específicos de tu empresa, lo que te brinda una solución web a medida que refleja tu singularidad.
                     </p>
                 </div>
-                <div class="w-4/12 text/center p-8 bg-ipmr-light">
+                <div class="w-full md:w-4/12 text/center p-8 bg-ipmr-light">
                     <h4 class="mb-7">Optimización para SEO</h4>
                     <p class="text-sm">
                         Nos aseguramos de que tu sitio web esté optimizado para los motores de búsqueda (SEO) desde el principio. Esto te ayuda a ser más visible en línea y a atraer a un público más amplio, lo que es esencial para el éxito en el mundo digital.
@@ -48,13 +48,13 @@
         </div>
     </section>
 
-    <section class="py-32 bg-gray-900 relative">
+    <section class="pt-0 pb-10 md:py-32 bg-gray-900 relative">
         <div class="sectionHalfImg" style="background-image: url('img/ip-media-river-paginas-web-en-tijuana-baja-california.jpg')">
 
         </div>
 
         <div class="container flex items-start justify-between">
-            <div class="w-5/12">
+            <div class="w-full md:w-5/12">
                 <h1 class="text-white title mb-3">
                     Diseño Profesional
                 </h1>
@@ -71,9 +71,9 @@
         </div>
     </section>
 
-    <section class="py-24">
+    <section class="py-10 md:py-24">
         <div class="container flex items-center space-x-16">
-            <div class="w-1/2 mx-auto text-center">
+            <div class="w-full md:w-1/2 mx-auto text-left md:text-center">
                 <h3 class="mb-10 leading-relaxed">
                     Para más información sobre nuestro plan de Páginas Web, contáctanos hoy mismo.
                 </h3>
