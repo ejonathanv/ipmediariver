@@ -16,7 +16,7 @@
                 </a>
             </div>
             <div class="w-full md:w-5/12">
-                <img src="{{ asset('img/ip-media-river-aplicaciones-personalizadas-portada.svg') }}" alt="Aplicaciones Web Personalizadas" class="w-full">
+                <img src="{{ asset('img/ip-media-river-aplicaciones-personalizadas-portada.svg') }}" alt="Aplicaciones Web Personalizadas | Image by storyset on Freepik | https://www.freepik.com/free-vector/programming-concept-illustration_7118756.htm" class="w-full">
             </div>
         </div>
     </section>

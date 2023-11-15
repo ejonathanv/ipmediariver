@@ -20,7 +20,7 @@
                 </a>
             </div>
             <div class="w-full md:w-5/12">
-                <img src="{{ asset('img/ip-media-river-mantenimiento-y-soporte-portada.svg') }}" alt="Mantenimiento y Soporte" class="w-full">
+                <img src="{{ asset('img/ip-media-river-mantenimiento-y-soporte-portada.svg') }}" alt="Mantenimiento y Soporte | Image by storyset on Freepik | https://www.freepik.com/free-vector/computer-trouble-shooting-concept-illustration_18771510.htm" class="w-full">
             </div>
         </div>
     </section>

@@ -16,7 +16,7 @@
                 </a>
             </div>
             <div class="w-full md:w-5/12">
-                <img src="{{ asset('img/ip-media-river-consultoria-portada.svg') }}" alt="Servicios de Consultoría" class="w-full">
+                <img src="{{ asset('img/ip-media-river-consultoria-portada.svg') }}" alt="Servicios de Consultoría | Image by storyset on Freepik | https://www.freepik.com/free-vector/helping-partner-concept-illustration_23673001.htm" class="w-full">
             </div>
         </div>
     </section>
