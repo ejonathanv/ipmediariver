@@ -36,6 +36,10 @@ use App\Http\Controllers\PostController;
     Route::get('/terminos-y-condiciones', [WebsiteController::class, 'terms'])->name('website.terms');
     // Política de privacidad
     Route::get('/politica-de-privacidad', [WebsiteController::class, 'privacy'])->name('website.privacy');
+    // Registro de suscripción
+    Route::post('/suscribirse', [WebsiteController::class, 'suscribe'])->name('suscribe');
+    // Registro exitoso
+    Route::get('/registro-exitoso', [WebsiteController::class, 'success'])->name('success');
 
 // Terminan rutas para sitio web
 

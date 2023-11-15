@@ -3,7 +3,10 @@
 namespace App\Http\Controllers;
 
 use App\Models\Post;
+use App\Models\Suscriber;
 use Illuminate\Http\Request;
+use App\Mail\WelcomeSuscriber;
+use Illuminate\Support\Facades\Mail;
 
 class WebsiteController extends Controller
 {
@@ -63,5 +66,27 @@ class WebsiteController extends Controller
 
     public function maintenanceAndSupport(){
         return view('website.maintenanceAndSupport');
+    }
+
+    public function suscribe(Request $request){
+        $request->validate([
+            'email' => 'required|email|unique:suscribers,email'
+        ], [
+            'email.required' => 'El campo email es obligatorio',
+            'email.email' => 'El campo email debe ser un email válido',
+            'email.unique' => 'El email ya se encuentra registrado'
+        ]);
+
+        $suscriber = new Suscriber();
+        $suscriber->email = $request->email;
+        $suscriber->save();
+
+        Mail::to($request->email)->send(new WelcomeSuscriber($request->email));
+
+        return redirect()->route('success');
+    }
+
+    public function success(){
+        return view('website.success-suscribe');
     }
 }
