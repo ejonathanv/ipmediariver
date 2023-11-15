@@ -116,7 +116,7 @@ body.admin{
 }
 
 .navMenu nav a{
-    @apply text-white text-3xl font-bold tracking-widest;
+    @apply text-white text-3xl font-bold tracking-widest leading-relaxed;
 }
 
 .navMenu nav a:hover{
@@ -124,7 +124,7 @@ body.admin{
 }
 
 .navMenu .navMenuCopy{
-    @apply text-white text-sm font-bold mt-10;
+    @apply text-white text-xs font-bold mt-10 opacity-75;
 }
 
 .navMenuCloseBtn{
@@ -136,11 +136,11 @@ body.admin{
 @media screen and (max-width: 640px){
     .navMenu{
         width: 100vw;
-        padding: 4rem;
+        padding: 5rem 2rem;
     }
 
     .navMenu nav{
-        @apply space-y-4;
+        @apply space-y-7;
     }
 
     .navMenu nav a{

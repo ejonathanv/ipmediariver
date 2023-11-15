@@ -44,6 +44,18 @@
                     Envíanos un Email
                 </a>
             </p>
+
+            <div class="flex md:hidden flex-row items-center mt-8 space-x-4 font-bold text-lg">
+                <a href="#">
+                    <i class="fab fa-instagram"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-youtube"></i>
+                </a>
+                <a href="#">
+                    <i class="fab fa-tiktok"></i>
+                </a>
+            </div>
         </div>
     </div>
 </footer>

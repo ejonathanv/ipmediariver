@@ -31,7 +31,28 @@
                 <a href="{{ route('website.contact') }}">
                     Contacto
                 </a>
+                <div class="flex md:hidden items-center space-x-7 mt-4">
+                    <a href="#">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-youtube"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fab fa-tiktok"></i>
+                    </a>
+                </div>
             </nav>
+
+
+            <div class="flex md:hidden flex-row items-center mt-8 space-x-4 font-bold">
+                <a href="{{ route('website.terms') }}" class="text-xs text-white underline">
+                    Términos y Condiciones
+                </a>
+                <a href="{{ route('website.privacy') }}" class="text-xs text-white underline">
+                    Política de Privacidad
+                </a>
+            </div>
 
             <p class="navMenuCopy">
                 &copy; {{ date('Y') }} IP Media River. Todos los derechos reservados.
