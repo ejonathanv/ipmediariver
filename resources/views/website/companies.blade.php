@@ -30,7 +30,7 @@
                 </div>
 
                 <div class="w-full md:w-1/2">
-                    <img src="{{ asset('img/ip-media-river-paginas-web-empreas.jpg') }}" alt="IP Media River - Páginas Web Empresariales" class="w-full h-auto">
+                    <img src="{{ asset('img/ip-media-river-paginas-web-empreas.jpg') }}" alt="IP Media River - Páginas Web Empresariales | Photo by Andrea Piacquadio from Pexels: https://www.pexels.com/photo/person-in-black-suit-typing-on-a-computer-3760081/" class="w-full h-auto">
                 </div>
             </div>
         </div>
@@ -63,7 +63,7 @@
 
     <section class="py-16 aboutVideoContainer flex items-center justify-center">
 
-        <video autoplay loop muted playsinline poster="" class="cover-video aboutVideoBg">
+        <video autoplay loop muted playsinline poster="" class="cover-video aboutVideoBg" alt="IP Media River - Software Empresarial | Video by Tima Miroshnichenko from Pexels: https://www.pexels.com/video/a-woman-looking-at-graph-while-working-with-a-laptop-5717289/">
             <source src="{{ asset('video/ip-media-river-desarrollo-web-empresarial.mp4') }}" type="video/mp4">
             Tu navegador no soporta video HTML5.
         </video>
@@ -89,7 +89,7 @@
                 </p>
             </div>
             <div class="w-full md:w-1/2">
-                <img src="{{ asset('img/ip-media-river-ecommerce.jpg') }}" alt="IP Media River - Comercio en Línea" class="w-full h-auto">
+                <img src="{{ asset('img/ip-media-river-ecommerce.jpg') }}" alt="IP Media River - Comercio en Línea | Photo by Karolina Grabowska from Pexels: https://www.pexels.com/photo/person-using-a-macbook-and-holding-a-credit-card-4968391/" class="w-full h-auto">
             </div>
         </div>
     </section>
@@ -105,7 +105,7 @@
                 </p>
             </div>
             <div class="w-full md:w-1/2">
-                <img src="{{ asset('img/ip-media-river-software-a-la-medida-portada.jpg') }}" alt="IP Media River - Aplicaciones Empresariales a la Medida" class="w-full h-auto">
+                <img src="{{ asset('img/ip-media-river-software-a-la-medida-portada.jpg') }}" alt="IP Media River - Aplicaciones Empresariales a la Medida | Photo by Rodrigo Santos from Pexels: https://www.pexels.com/photo/opened-program-for-working-online-on-laptop-3888149/" class="w-full h-auto">
             </div>
         </div>
     </section>

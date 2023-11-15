@@ -37,7 +37,7 @@
                 </p>
             </div>
             <div class="w-full md:w-6/12">
-                <img src="{{ asset('img/ip-media-river-contacto.jpg') }}" alt="Contacto IP Media River" class="w-full">
+                <img src="{{ asset('img/ip-media-river-contacto.jpg') }}" alt="Contacto IP Media River | Photo by Dzenina Lukac from Pexels: https://www.pexels.com/photo/turned-on-silver-imac-with-might-mouse-and-keyboard-930530/" class="w-full">
             </div>
         </div>
     </section>

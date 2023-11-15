@@ -54,7 +54,7 @@
 
     <section class="pt-0 pb-10 md:py-32 bg-gray-900 relative">
 
-        <div class="sectionHalfImg" style="background-image: url('img/ip-media-river-mantenimiento-y-soporte-slogan.jpg')">
+        <div class="sectionHalfImg" style="background-image: url('img/ip-media-river-mantenimiento-y-soporte-slogan.jpg')" alt="Mantenimiento y Soporte | Photo by Sora Shimazaki from Pexels: https://www.pexels.com/photo/person-in-blue-long-sleeve-shirt-using-macbook-pro-on-brown-wooden-table-5673496/">
 
         </div>
 

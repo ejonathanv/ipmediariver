@@ -50,7 +50,7 @@
 
     <section class="pt-0 pb-10 md:py-32 bg-gray-900 relative">
 
-        <div class="sectionHalfImg" style="background-image: url('img/ip-media-river-consuloria-slogan.jpg')">
+        <div class="sectionHalfImg" style="background-image: url('img/ip-media-river-consuloria-slogan.jpg')" alt="Servicios de Consultoría | Photo by Antoni Shkraba from Pexels: https://www.pexels.com/photo/high-angle-shot-of-a-colleagues-working-on-a-project-5466275/">
 
         </div>
 

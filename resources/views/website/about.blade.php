@@ -12,7 +12,7 @@
                     </p>
                 </div>
                 <div class="w-full md:w-1/2">
-                    <img src="{{ asset('img/ip-media-river-nosotros-portada.jpg') }}" alt="IP Media River - Nosotros" class="w-full h-auto">
+                    <img src="{{ asset('img/ip-media-river-nosotros-portada.jpg') }}" alt="IP Media River - Nosotros | Photo by Burst from Pexels: https://www.pexels.com/photo/books-cup-of-coffee-desk-laptop-373892/" class="w-full h-auto">
                 </div>
             </div>
         </div>
@@ -20,7 +20,7 @@
 
     <section class="py-16 aboutVideoContainer flex items-center justify-center">
 
-        <video autoplay loop muted playsinline poster="" class="cover-video aboutVideoBg">
+        <video autoplay loop muted playsinline poster="" class="cover-video aboutVideoBg" alt="IP Media River - Video de Nosotros | Video by Matilda Wormwood from Pexels: https://www.pexels.com/video/person-using-her-laptop-4146195/">
             <source src="{{ asset('video/ip-media-river-programacion_3.mp4') }}" type="video/mp4">
             Tu navegador no soporta video HTML5.
         </video>
@@ -55,7 +55,7 @@
 
     <section class="pt-0 pb-10 md:py-32 bg-gray-900 relative">
 
-        <div class="sectionHalfImg" style="background-image: url('img/ip-media-river-nosotros-contacto_2.jpg')">
+        <div class="sectionHalfImg" style="background-image: url('img/ip-media-river-nosotros-contacto_2.jpg')" alt="IP Media River - Contacto | Photo by Mikhail Nilov from Pexels: https://www.pexels.com/photo/women-working-in-a-call-center-7682091/">
 
         </div>
 

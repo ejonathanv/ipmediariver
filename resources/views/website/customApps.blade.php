@@ -50,7 +50,7 @@
 
     <section class="pt-0 pb-10 md:py-32 bg-gray-900 relative">
 
-        <div class="sectionHalfImg" style="background-image: url('img/ip-media-river-ciber-seguridad.jpg')">
+        <div class="sectionHalfImg" style="background-image: url('img/ip-media-river-ciber-seguridad.jpg')" alt="Aplicaciones Web Personalizadas | Photo by Pixabay from Pexels: https://www.pexels.com/photo/blur-bright-business-codes-207580/">
 
         </div>
 

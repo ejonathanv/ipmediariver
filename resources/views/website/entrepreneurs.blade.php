@@ -21,7 +21,7 @@
     <section class="relative">
         <img src="{{ asset('img/bg-diagonal-gradient.svg') }}" alt="IP Media River - Fondo Diagonal" class="bgDiagonal">
         <div class="container">
-            <img src="{{ asset('img/ip-media-river-paginas-web-para-emprendedores-portada.jpg') }}" alt="IP Media River - Páginas Web para Emprendedores" class="w-full h-auto">
+            <img src="{{ asset('img/ip-media-river-paginas-web-para-emprendedores-portada.jpg') }}" alt="IP Media River - Páginas Web para Emprendedores | Photo by George Milton from Pexels: https://www.pexels.com/photo/serious-female-entrepreneur-doing-work-on-laptop-6953567/" class="w-full h-auto">
         </div>
     </section>
 
@@ -76,7 +76,7 @@
                 </ul>
             </div>
             <div class="w-full md:w-1/2">
-                <img src="{{ asset('img/ip-media-river-paginas-web-para-emprendedores-caracteristicas.jpg') }}" alt="IP Media River - Páginas Web para Emprendedores - Características" class="w-full h-auto">
+                <img src="{{ asset('img/ip-media-river-paginas-web-para-emprendedores-caracteristicas.jpg') }}" alt="IP Media River - Páginas Web para Emprendedores - Características | Photo by Burst from Pexels: https://www.pexels.com/photo/business-coffee-computer-desk-374006/" class="w-full h-auto">
             </div>
         </div>
     </section>
