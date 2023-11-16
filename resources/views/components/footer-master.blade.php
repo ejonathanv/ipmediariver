@@ -46,13 +46,13 @@
             </p>
 
             <div class="flex md:hidden flex-row items-center mt-8 space-x-4 font-bold text-lg">
-                <a href="#">
+                <a href="https://www.instagram.com/ipmediariver/" target="_blank">
                     <i class="fab fa-instagram"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.youtube.com/@ipmediariver" target="_blank">
                     <i class="fab fa-youtube"></i>
                 </a>
-                <a href="#">
+                <a href="https://www.tiktok.com/@ipmediariver" target="_blank">
                     <i class="fab fa-tiktok"></i>
                 </a>
             </div>

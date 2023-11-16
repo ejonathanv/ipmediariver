@@ -32,13 +32,13 @@
                     Contacto
                 </a>
                 <div class="flex md:hidden items-center space-x-7 mt-4">
-                    <a href="#">
+                    <a href="https://www.instagram.com/ipmediariver/" target="_blank">
                         <i class="fab fa-instagram"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.youtube.com/@ipmediariver" target="_blank">
                         <i class="fab fa-youtube"></i>
                     </a>
-                    <a href="#">
+                    <a href="https://www.tiktok.com/@ipmediariver" target="_blank">
                         <i class="fab fa-tiktok"></i>
                     </a>
                 </div>
