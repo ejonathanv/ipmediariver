@@ -20,6 +20,18 @@
         <script src="https://kit.fontawesome.com/133291f590.js" crossorigin="anonymous"></script>
         @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-B0LE5P4YKQ"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-B0LE5P4YKQ');
+        </script>
+
+
     </head>
     <body class="antialiased" id="app">
 
