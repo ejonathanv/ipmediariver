@@ -372,3 +372,7 @@ h1.title{
 label{
     @apply block text-sm font-bold mb-2;
 }
+
+.article ul{
+    @apply list-disc list-inside;
+}
